@@ -31,7 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
         Random rand = new Random();  //randomizes number
-        int n = 0;                  //number of values in the array
+        int n = 50;                  //number of values in the array
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {  //loops the numbers and randomizes them based on the number
             arr[i] = rand.nextInt(100);
